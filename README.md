@@ -7,7 +7,7 @@
 * make orders for certain restuarants
 * review certain restuarants with star, text and selfie rating
 
-#### The system is implemented with various Amazon Web Service, supports recommendation, ordering and intelligent review.
+#### Different Amazon Web Service applied in the project:
 
 * AWS S3: Host webpage producing by HTML and Javascript
 * AWS API Gateway: Integrates with AWS Lambda
