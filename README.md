@@ -7,7 +7,9 @@
 
 
 The system is implemented with various Amazon Web Service, supports recommendation, ordering and intelligent review.
+
 AWS S3: Host webpage producing by HTML and Javascript
+
 AWS API Gateway: Integrates with AWS Lambda
 AWS Cognito: Realized user verification and security
 AWS Lex: Proceed natural language analyzing of user chat content
