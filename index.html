@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>AI Customer Server</title>
+    
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.203.0.min.js"></script>
+    <script src="./scripts/aws-cognito-sdk.min.js"></script>
+    <script src="./scripts/amazon-cognito-identity.min.js"></script>
+    <script type="text/javascript" src="lib/axios/dist/axios.standalone.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/rollups/hmac-sha256.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/rollups/sha256.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/components/hmac.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/components/enc-base64.js"></script>
+    <script type="text/javascript" src="lib/url-template/url-template.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/sigV4Client.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/apiGatewayClient.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/simpleHttpClient.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/utils.js"></script>
+    <script type="text/javascript" src="./scripts/apigClient.js"></script>
+
+</head>
+    <body>
+        <div>
+            <a href="">LOGIN</a>
+        </div>
+    <span style="text-align: center;"><h1>Welcome</h1></span>
+
+    <form>
+        <ul class="form-style-1">
+            <li><label>Type in your message:<span class="required">*</span></label><input type="text" name="message" class="field-divided" placeholder="message"/></li>
+            <li>
+                <input type="submit" value="Submit"/>
+                <p>Please login first!</p>
+            </li>
+        </ul>
+    </form>
+
+    <div id="results" class="form-style-1"></div>
+
+    </body>
+</html>
+
+<script src="./scripts/app.js"></script>
+<script src="./scripts/code2token.js"></script>
+<script src="./scripts/integrateuserpool.js"></script>
